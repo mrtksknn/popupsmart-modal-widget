@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import {elementType, object} from 'prop-types';
-import '../styles/globals.css';
-import '../styles/Home.module.css';
+import '../styles/globals.scss';
 
 const displayName = 'App';
 

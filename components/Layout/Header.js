@@ -6,8 +6,8 @@ import Logo from '../../assets/FirmLogos/logo.png';
 const displayName = 'Header';
 
 const Header = () => (
-  <header>
-    <nav className="px-4 lg:px-10 py-8">
+  <header className="px-6 lg-:px-0">
+    <nav className="py-8">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <div className="flex">
           <a className="flex items-center" href="https://flowbite.com">
@@ -51,7 +51,7 @@ const Header = () => (
             <a className="font-medium text-md px-7" href="#">
               Sign in
             </a>
-            <button className="try-button rounded-xl px-5 py-2" type="button">
+            <button className="primary-button rounded-xl px-5 py-2" type="button">
               Try for free
             </button>
           </div>
