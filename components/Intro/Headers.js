@@ -2,7 +2,7 @@ import React from 'react';
 
 const Headers = () => (
   <React.Fragment>
-    <span className="font-medium text-7xl w-1/2">
+    <span className="main-header font-medium text-7xl">
       Simple modal card creator
     </span>
     <p className="text-3xl mt-5 mb-10">

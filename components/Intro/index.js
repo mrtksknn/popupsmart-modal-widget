@@ -4,10 +4,12 @@ import BtnList from './BtnList';
 
 const Intro = () => (
   <div className="Intro flex flex-col mt-14">
-    <Headers />
-    <BtnList />
-    <div className="flex justify-end w-full">
-      <div className="back-rectangle" />
+    <div className="Intro-wrapper">
+      <Headers />
+      <BtnList />
+      <div className="flex justify-end w-full">
+        <div className="back-rectangle" />
+      </div>
     </div>
   </div>
 );
