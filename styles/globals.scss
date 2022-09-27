@@ -140,3 +140,31 @@ header {
     }
   }
 }
+
+.Rules {
+  width: 100%;
+  max-width: 1195px;
+  .container {
+    width: 100%;
+    max-width: 380px;
+    .peer:checked ~ .peer-checked\:bg-purple-600 {
+      --tw-bg-opacity: 1;
+      background-color: #7D4AEA;
+    }
+    .Device {
+      input {
+        width: 18px;
+        height: 18px;
+    }
+    }
+  }
+}
+
+.Settings {
+  width: 100%;
+  max-width: 1195px;
+  .container {
+    width: 100%;
+    max-width: 380px;
+  }
+}

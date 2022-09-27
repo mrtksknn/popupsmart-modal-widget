@@ -3,6 +3,8 @@ import Intro from '../Intro';
 import Statistics from '../Statistics';
 import Template from '../Template';
 import Content from '../Content';
+import Rules from '../Rules';
+import Settings from '../Settings';
 
 const displayName = 'Home';
 
@@ -14,6 +16,8 @@ const Home = () => (
       <Template />
       <Appearance />
       <Content />
+      <Rules />
+      <Settings />
     </div>
   </div>
 );
