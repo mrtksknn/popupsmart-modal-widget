@@ -226,7 +226,7 @@
     }],
     "lines-between-class-members" : ["error", "always"],
     "max-depth"                   : ["error", 4],
-    "max-len"                     : ["error", 120],
+    "max-len"                     : ["error", 300],
     "max-lines"                   : ["error", {
       "max"            : 400,
       "skipBlankLines" : true,

@@ -1,6 +1,8 @@
+import Appearance from '../Appearance';
 import Intro from '../Intro';
 import Statistics from '../Statistics';
 import Template from '../Template';
+import Content from '../Content';
 
 const displayName = 'Home';
 
@@ -10,6 +12,8 @@ const Home = () => (
     <Statistics />
     <div className="bg-white w-full flex items-center flex-col pt-24">
       <Template />
+      <Appearance />
+      <Content />
     </div>
   </div>
 );
