@@ -5,6 +5,7 @@ import Template from '../Template';
 import Content from '../Content';
 import Rules from '../Rules';
 import Settings from '../Settings';
+import Conversation from '../Conversation';
 
 const displayName = 'Home';
 
@@ -19,6 +20,7 @@ const Home = () => (
       <Rules />
       <Settings />
     </div>
+    <Conversation />
   </div>
 );
 
