@@ -174,3 +174,25 @@ header {
   max-width: 1195px;
   .card { background: #F5F5F5; }
 }
+
+.Faq {
+  width: 100%;
+  max-width: 1195px;
+  .accordion_item {
+    color: #777777;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .accordion_item.active .button {
+    color: #000;
+    background: #F5F5F5;
+  }
+  .answer_wrapper {
+    height: 0;
+    overflow: hidden;
+  }
+  .answer_wrapper.open {
+    height: auto;
+    background: #F5F5F5
+  }
+}

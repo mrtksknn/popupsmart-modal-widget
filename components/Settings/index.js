@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-child-element-spacing */
 import React from 'react';
 
 const Settings = () => (
@@ -12,18 +13,18 @@ const Settings = () => (
           Settings and Code
         </span>
       </div>
-      <p className="text-lg font-semibold">
+      <span className="text-lg font-semibold">
         Webhook to Send data
-      </p>
-      <p className="text-sm font-normal">
+      </span>
+      <span className="text-sm font-normal">
         Enter youe Webhook URL
-      </p>
-      <p className="text-sm font-normal flex">
+      </span>
+      <span className="text-sm font-normal flex">
         You can  create a simple one with
-        <p className="font-semibold ml-1">
+        <span className="font-semibold ml-1">
           make.com
-        </p>
-      </p>
+        </span>
+      </span>
       <input
         className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 w-2/5 px-3 py-1.5 mt-4 mb-4"
         id="exampleFormControlInput1"
