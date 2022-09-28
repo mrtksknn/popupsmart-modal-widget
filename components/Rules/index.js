@@ -56,7 +56,7 @@ const Rules = () => (
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
       >
-        <option selected>
+        <option>
           Select
         </option>
         <option value="1">

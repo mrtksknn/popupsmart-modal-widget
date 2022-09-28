@@ -7,6 +7,7 @@ import Rules from '../Rules';
 import Settings from '../Settings';
 import Conversation from '../Conversation';
 import Faq from '../FaQ';
+import BuildInfo from '../BuildInfo';
 
 const displayName = 'Home';
 
@@ -23,6 +24,7 @@ const Home = () => (
     </div>
     <Conversation />
     <Faq />
+    <BuildInfo />
   </div>
 );
 
