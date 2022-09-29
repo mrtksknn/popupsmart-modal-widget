@@ -7,7 +7,7 @@ const displayName = 'Header';
 
 const Header = () => (
   <header className="px-6 lg-:px-0">
-    <nav className="py-8">
+    <nav className="container py-8">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <div className="flex">
           <a className="flex items-center" href="https://flowbite.com">

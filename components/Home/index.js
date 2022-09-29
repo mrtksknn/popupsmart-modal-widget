@@ -13,7 +13,7 @@ import Camper from '../Camper';
 const displayName = 'Home';
 
 const Home = () => (
-  <div className="Home mt-14">
+  <div className="w-full flex items-center flex-col mt-14">
     <Intro />
     <Camper />
     <Statistics />

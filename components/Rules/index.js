@@ -1,19 +1,12 @@
 import React from 'react';
 import DeviceSelect from './DeviceSelect';
 import ToggleSelect from './ToggleSelect';
+import StepHeader from '../StepHeader';
 
 const Rules = () => (
   <div className="Rules mt-24 w-96">
-    <div className="container">
-      <div className="flex items-center mb-8">
-        {/* eslint-disable-next-line max-len */}
-        <span className="step-header text-base font-semibold rounded-full flex items-center justify-center w-9 h-9 mr-4">
-          4
-        </span>
-        <span className="text-lg font-semibold">
-          Targeting Rules
-        </span>
-      </div>
+    <div className="mini-container">
+      <StepHeader count="4" main="Targeting Rules" />
       <ToggleSelect title="Visitor Device" />
       <DeviceSelect />
       <ToggleSelect title="After X seconds" />

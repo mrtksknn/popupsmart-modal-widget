@@ -1,20 +1,13 @@
 /* eslint-disable react/jsx-child-element-spacing */
 import React from 'react';
 import Image from 'next/image';
+import StepHeader from '../StepHeader';
 import Info from '../../assets/others/info.svg';
 
 const Settings = () => (
   <div className="Settings mt-24">
-    <div className="container">
-      <div className="flex items-center mb-8">
-        {/* eslint-disable-next-line max-len */}
-        <span className="step-header text-base font-semibold rounded-full flex items-center justify-center w-9 h-9 mr-4">
-          5
-        </span>
-        <span className="text-lg font-semibold">
-          Settings and Code
-        </span>
-      </div>
+    <div className="mini-container">
+      <StepHeader count="5" main="Settings and Code" />
       <span className="text-lg font-semibold">
         Webhook to Send data
       </span>

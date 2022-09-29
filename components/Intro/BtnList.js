@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Check from '../../assets/others/check.png';
 
 const BtnList = () => {
-  const numbers = [
+  const texts = [
     'Free and paid plans',
     'Setup in minutes',
     'No credit card required*'
   ];
-  const listItems = numbers.map(text => <li className="mr-4" key={text}>
+  const listItems = texts.map(text => <li className="mr-4" key={text}>
     <Image
       alt="check"
       height="8.93" src={Check}
