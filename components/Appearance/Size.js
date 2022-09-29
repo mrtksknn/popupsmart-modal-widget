@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Size = () => (
-  <div>
+  <div className="Size">
     <p className="text-sm font-normal">
       Size
     </p>

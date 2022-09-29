@@ -4,10 +4,11 @@ import Colors from './Colors/Colors';
 import StepHeader from '../StepHeader';
 import LogoLoad from '../LogoLoad/LogoLoad';
 import Position from './Position/Position';
+import Modal from '../Modal';
 import Size from './Size';
 
 const Appearance = () => (
-  <div className="Appearance mt-24">
+  <div className="Appearance flex justify-between mt-20">
     <div className="mini-container">
       <StepHeader count="2" main="Appearance" sub="(Size, colors, logo)" />
       <Size />
@@ -15,6 +16,7 @@ const Appearance = () => (
       <Colors />
       <LogoLoad header="Upload Logo" />
     </div>
+    <Modal />
   </div>
 );
 

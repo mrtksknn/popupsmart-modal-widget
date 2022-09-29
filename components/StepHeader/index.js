@@ -16,7 +16,7 @@ const defaultProps = {
 };
 
 const StepHeader = ({count, main, sub}) => (
-  <div className="step-header flex items-center mt-24 mb-8">
+  <div className="step-header flex items-center mb-8">
     <span className="step-count text-base font-semibold rounded-full flex items-center justify-center w-9 h-9 mr-4">
       {count}
     </span>

@@ -75,7 +75,6 @@
     "array-callback-return"  : 2,
     "block-scoped-var"       : 2,
     "class-methods-use-this" : 2,
-    "complexity"               : ["error", 5],
     "consistent-return"      : 2,
     "curly"                    : 2,
     "default-case"           : 2,
@@ -107,10 +106,6 @@
     "no-labels"              : 2,
     "no-lone-blocks"         : 2,
     "no-loop-func"           : 2,
-    "no-magic-numbers"       : ["error", {
-      "ignoreArrayIndexes" : true,
-      "ignore"             : [-1, 0, 1, 2]
-    }],
     "no-multi-spaces"              : 1,
     "no-multi-str"                 : 1,
     "no-new"                       : 2,

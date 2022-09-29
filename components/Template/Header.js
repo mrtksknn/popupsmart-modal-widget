@@ -5,7 +5,7 @@ const Header = () => (
     <p className="text-4xl font-semibold">
       Modal Card Generator
     </p>
-    <p className="text-base font-normal w-2/5 mt-4">
+    <p className="text-base font-normal w-2/5 mt-4 mb-20">
       Measure your return on email marketing efforts easier and
       faster by using thebest online tools. Popupsmart is ready to
       help you build an efficient email list!
