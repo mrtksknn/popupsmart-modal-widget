@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-child-element-spacing */
 import React from 'react';
+import Image from 'next/image';
+import Info from '../../assets/others/info.svg';
 
 const Settings = () => (
   <div className="Settings mt-24">
@@ -55,6 +57,16 @@ const Settings = () => (
         Get your Code
       </button>
       <div className="bg-slate-800 w-96 h-64 mt-8" />
+      <div className="flex items-start mt-4">
+        <Image
+          alt="info" height="20" src={Info}
+          width="20"
+        />
+        <span className="text-xs ml-1">
+          Copy and paste the embed code above just before the
+          closing `&lt;/body&gt;` tag of your website template file.
+        </span>
+      </div>
     </div>
   </div>
 );

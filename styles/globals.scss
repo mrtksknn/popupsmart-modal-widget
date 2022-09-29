@@ -9,7 +9,12 @@
     background: #7D4AEA;
     box-shadow: 0px 3px 7px 1px rgba(125, 74, 234, 0.2);
   }
+  .container {
+    width: 100% !important;
+    max-width: 380px !important;
+  }
 }
+
 
 .Home {
   width: 100%;
@@ -71,6 +76,26 @@ header {
       height: 315px;
       border-radius: 40px 40px 0px 0px;
       background: linear-gradient(239.75deg, rgba(255, 255, 255, 0.7) 1.2%, rgba(255, 255, 255, 0) 70.51%);
+    }
+  }
+}
+
+.Camper {
+  top: 80%;
+  width: 100%;
+  z-index: 20;
+  height: 468px;
+  position: absolute;
+  max-width: 1195px;
+  .card {
+    width: 800px;
+    height: 100%;
+    border-radius: 40px;
+    background: #ffffff;
+    .left { border-radius: 40px 0 0 40px; }
+    .right {
+      border-radius: 0 40px 40px 0;
+      background: url('../assets/others/bgImage.svg');
     }
   }
 }

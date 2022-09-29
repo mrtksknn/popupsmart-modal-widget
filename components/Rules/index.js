@@ -18,21 +18,21 @@ const Rules = () => (
       <DeviceSelect />
       <ToggleSelect title="After X seconds" />
       <input
-        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 w-2/5 px-3 py-1.5 mt-4"
+        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 px-3 py-1.5 mt-4"
         id="exampleFormControlInput1"
         placeholder="12"
         type="text"
       />
       <ToggleSelect title="After % Scroll" />
       <input
-        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 w-2/5 px-3 py-1.5 mt-4"
+        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 px-3 py-1.5 mt-4"
         id="exampleFormControlInput1"
         placeholder="50"
         type="text"
       />
       <ToggleSelect title="Traffic Source" />
       <input
-        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 w-2/5 px-3 py-1.5 mt-4 mb-20"
+        className="w-full form-control flex border border-solid border-gray-300 rounded-lg focus:border-blue-600 px-3 py-1.5 mt-4 mb-20"
         id="exampleFormControlInput1"
         placeholder="Enter your traffic source domain"
         type="text"
