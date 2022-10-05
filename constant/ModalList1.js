@@ -13,16 +13,19 @@ import modal12 from '../assets/Modals/page1/12.svg';
 
 const MODALLIST1 = [
   {
-    id  : 1,
-    URL : modal1
+    id    : 1,
+    URL   : modal1,
+    value : 'security'
   },
   {
-    id  : 2,
-    URL : modal2
+    id    : 2,
+    URL   : modal2,
+    value : 'install'
   },
   {
-    id  : 3,
-    URL : modal3
+    id    : 3,
+    URL   : modal3,
+    value : 'choose'
   },
   {
     id  : 4,

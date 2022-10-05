@@ -14,7 +14,7 @@ const Pagination = ({tab}) => (
     <div className={tab === 1 ? 'grid grid-cols-4 gap-4' : 'hidden'} id="link1">
       {MODALLIST1.map(collectionItem => (
         <div key={collectionItem.id}>
-          <TempCard alt="modal-temp" image={collectionItem.URL} />
+          <TempCard alt="modal-temp" image={collectionItem.URL} value={collectionItem.value} />
         </div>
       ))}
     </div>

@@ -21,8 +21,8 @@ const Home = () => (
     <Camper />
     <Statistics />
     <Template />
-    <div className="max-container flex flex-row items-start">
-      <div className="bg-white w-full flex flex-col">
+    <div className="max-container flex flex-row items-start justify-between">
+      <div className="bg-white w-auto flex flex-col">
         <Appearance />
         <Content />
         <Rules />
