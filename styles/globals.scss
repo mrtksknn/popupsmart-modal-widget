@@ -146,6 +146,29 @@ header {
   }
 }
 
+.soon {
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+}
+.comingSoon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  z-index: 2;
+  border: 3px solid #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
 .preview-modal { width: 700px }
 .modalCard { width: 480px }
 .modalCard-sm { width: 440px }
