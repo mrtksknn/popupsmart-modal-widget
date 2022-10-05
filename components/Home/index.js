@@ -1,14 +1,17 @@
-import Appearance from '../Appearance';
-import Intro from '../Intro';
-import Statistics from '../Statistics';
-import Template from '../Template';
-import Content from '../Content';
-import Rules from '../Rules';
-import Settings from '../Settings';
-import Conversation from '../Conversation';
+/* eslint-disable no-console */
+import React from 'react';
 import Faq from '../FaQ';
-import BuildInfo from '../BuildInfo';
+import Intro from '../Intro';
+import Rules from '../Rules';
+import Modal from '../Modal';
 import Camper from '../Camper';
+import Content from '../Content';
+import Template from '../Template';
+import Settings from '../Settings';
+import BuildInfo from '../BuildInfo';
+import Appearance from '../Appearance';
+import Statistics from '../Statistics';
+import Conversation from '../Conversation';
 
 const displayName = 'Home';
 
@@ -17,12 +20,15 @@ const Home = () => (
     <Intro />
     <Camper />
     <Statistics />
-    <div className="bg-white w-full flex items-center flex-col pt-24">
-      <Template />
-      <Appearance />
-      <Content />
-      <Rules />
-      <Settings />
+    <Template />
+    <div className="max-container flex flex-row items-start">
+      <div className="bg-white w-full flex flex-col">
+        <Appearance />
+        <Content />
+        <Rules />
+        <Settings />
+      </div>
+      <Modal />
     </div>
     <Conversation />
     <Faq />

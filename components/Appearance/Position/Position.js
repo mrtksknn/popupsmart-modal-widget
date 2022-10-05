@@ -7,15 +7,15 @@ const Position = () => (
       Position
     </p>
     <div className="grid-container w-20">
-      <PositionItem />
-      <PositionItem />
-      <PositionItem />
-      <PositionItem />
-      <PositionItem selected="true" />
-      <PositionItem />
-      <PositionItem />
-      <PositionItem />
-      <PositionItem />
+      <PositionItem position="left:0, top:0" />
+      <PositionItem position="center:0, top:0" />
+      <PositionItem position="right:0, top:0" />
+      <PositionItem position="left:0, center:0" />
+      <PositionItem position="top: 50%, left:50%" selected />
+      <PositionItem position="right:0, center:0" />
+      <PositionItem position="left:0, bottom:0" />
+      <PositionItem position="center:0, bottom:0" />
+      <PositionItem position="right:0, bottom:0" />
     </div>
   </div>
 );

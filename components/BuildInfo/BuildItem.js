@@ -1,10 +1,10 @@
 import React from 'react';
-import {string, bool} from 'prop-types';
+import {string, object} from 'prop-types';
 import Image from 'next/image';
 
 const propTypes = {
   header : string,
-  image  : bool,
+  image  : object,
   text   : string
 };
 const defaultProps = {

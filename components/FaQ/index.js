@@ -22,7 +22,7 @@ const FAQ = () => {
       <ul className="accordion">
         {faqs.map(faq => (
           <FaqItem
-            active={clicked === faq} faq={faq} key={faq}
+            active={clicked === faq} faq={faq} key={faq.id}
             onToggle={() => handleToggle(faq)}
           />
         ))}

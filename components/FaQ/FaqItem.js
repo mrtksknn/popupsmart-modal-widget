@@ -1,14 +1,14 @@
 /* eslint-disable indent */
 import React from 'react';
-import {string, bool} from 'prop-types';
+import {func, bool, object} from 'prop-types';
 import Image from 'next/image';
 import Plus from '../../assets/others/plus.svg';
 import Minus from '../../assets/others/minus.svg';
 
 const propTypes = {
   active   : bool,
-  faq      : string,
-  onToggle : string
+  faq      : object,
+  onToggle : func
 };
 const defaultProps = {
   active   : false,

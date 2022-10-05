@@ -4,7 +4,6 @@ import Colors from './Colors/Colors';
 import StepHeader from '../StepHeader';
 import LogoLoad from '../LogoLoad/LogoLoad';
 import Position from './Position/Position';
-import Modal from '../Modal';
 import Size from './Size';
 
 const Appearance = () => (
@@ -16,7 +15,6 @@ const Appearance = () => (
       <Colors />
       <LogoLoad header="Upload Logo" />
     </div>
-    <Modal />
   </div>
 );
 

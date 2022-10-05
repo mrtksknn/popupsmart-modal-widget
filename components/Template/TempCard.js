@@ -1,8 +1,8 @@
 import React from 'react';
-import {string} from 'prop-types';
+import {object} from 'prop-types';
 import Image from 'next/image';
 
-const propTypes = {image : string};
+const propTypes = {image : object};
 const defaultProps = {image : null};
 
 const TempCard = ({image}) => (

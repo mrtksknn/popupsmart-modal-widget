@@ -75,7 +75,6 @@
     "array-callback-return"  : 2,
     "block-scoped-var"       : 2,
     "class-methods-use-this" : 2,
-    "consistent-return"      : 2,
     "curly"                    : 2,
     "default-case"           : 2,
     "dot-location"           : ["error", "property"],
@@ -256,7 +255,6 @@
       "maxBOF" : 0,
       "maxEOF" : 1
     }],
-    "no-negated-condition"             : 2,
     "no-nested-ternary"                : 2,
     "no-new-object"                    : 2,
     "no-restricted-syntax"             : 0,

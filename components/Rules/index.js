@@ -32,22 +32,8 @@ const Rules = () => (
       />
       <ToggleSelect title="Browser Language" />
       <select
-        aria-label="Default select example" className="form-select
-        block
-        w-full
-        pl-3
-        py-1.5
-        mb-4
-        text-base
-        font-normal
-        text-gray-700
-        bg-white bg-clip-padding bg-no-repeat
-        border border-solid border-gray-300
-        rounded
-        transition
-        ease-in-out
-        m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        aria-label="Default select example" className="form-select block w-full pl-3 py-1.5 mb-4 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat,
+        border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
       >
         <option>
           Select
@@ -79,7 +65,7 @@ const Rules = () => (
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
       >
-        <option selected>
+        <option>
           Select
         </option>
         <option value="1">

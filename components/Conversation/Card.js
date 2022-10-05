@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import {string} from 'prop-types';
+import {string, object} from 'prop-types';
 
 const propTypes = {
-  image    : string,
+  image    : object,
   subTitle : string,
   title    : string
 };

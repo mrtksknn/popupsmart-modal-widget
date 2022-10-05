@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 import {node} from 'prop-types';
-import AppHead from '../AppHead';
+import AppHead from '../AppHead/AppHead';
 import Header from './Header';
 import Footer from './Footer';
 

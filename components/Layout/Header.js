@@ -6,8 +6,8 @@ import Logo from '../../assets/FirmLogos/logo.png';
 const displayName = 'Header';
 
 const Header = () => (
-  <header className="px-6 lg-:px-0">
-    <nav className="container py-8">
+  <header className="px-6 lg-:px-6">
+    <nav className="max-container py-8">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <div className="flex">
           <a className="flex items-center" href="https://flowbite.com">
